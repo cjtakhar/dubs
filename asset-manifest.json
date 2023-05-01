@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dubs/static/css/main.e56a42f4.css",
+    "main.js": "/dubs/static/js/main.4585fe28.js",
+    "static/js/787.acf01b18.chunk.js": "/dubs/static/js/787.acf01b18.chunk.js",
+    "index.html": "/dubs/index.html",
+    "main.e56a42f4.css.map": "/dubs/static/css/main.e56a42f4.css.map",
+    "main.4585fe28.js.map": "/dubs/static/js/main.4585fe28.js.map",
+    "787.acf01b18.chunk.js.map": "/dubs/static/js/787.acf01b18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e56a42f4.css",
+    "static/js/main.4585fe28.js"
+  ]
+}
