@@ -18,6 +18,89 @@
   transform-style: preserve-3d;
 }
 
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: black;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px;
+  text-align: center;
+  color: #FDB927;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.input {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin: 8px;
+}
+
+.input::placeholder {
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #006BB6;
+  text-indent: 8px;
+}
+
+.input:focus {
+  outline: none;
+  text-indent: 8px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FDB927;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 8px;
+}
+
+
 @keyframes spin {
   100% {
     transform: rotateY(360deg);
