@@ -16,10 +16,10 @@ const Login = () => {
             const data = await res.json()
             if (data.error) {
                 setError(data.error)
-                return
+            } else {
+                localStorage.setItem('token', 'my_token')
+                window.location.href = '/dubs'
             }
-            localStorage.setItem('token', data.token)
-            window.location.href = '/'
         } catch (err) {
             setError(err.message)
         }
